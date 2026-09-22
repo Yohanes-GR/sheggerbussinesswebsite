@@ -29,11 +29,12 @@ export async function generateMetadata(): Promise<Metadata> {
     description: site.company.description,
     icons: {
       icon: [
-        { url: "/icon.png", type: "image/png", sizes: "192x192" },
-        { url: "/brand/sbg-logo.png", type: "image/png" },
         { url: "/favicon.ico", sizes: "48x48" },
+        { url: "/icon.png", type: "image/png", sizes: "32x32" },
+        { url: "/icon.png", type: "image/png", sizes: "192x192" },
       ],
-      apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "180x180" }],
+      shortcut: "/favicon.ico",
+      apple: "/apple-icon.png",
     },
   };
 }
