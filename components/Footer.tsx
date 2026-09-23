@@ -7,8 +7,10 @@ import type { Company, Division } from "@/lib/types";
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
-  { href: "/services", label: "Services" },
+  { href: "/services", label: "Our Divisions" },
   { href: "/projects", label: "Projects" },
+  { href: "/news", label: "News & Insights" },
+  { href: "/careers", label: "Careers" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -36,7 +38,7 @@ export function Footer({
             <SocialLinks company={company} light />
           </div>
         </div>
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-3">
           <h3 className="text-xs font-semibold uppercase tracking-[0.22em] text-white/50">
             Quick Links
           </h3>
@@ -50,9 +52,9 @@ export function Footer({
             ))}
           </ul>
         </div>
-        <div className="lg:col-span-3">
+        <div className="lg:col-span-2">
           <h3 className="text-xs font-semibold uppercase tracking-[0.22em] text-white/50">
-            Our services
+            Our Divisions
           </h3>
           <ul className="mt-4 space-y-2">
             {divisions.map((d) => (

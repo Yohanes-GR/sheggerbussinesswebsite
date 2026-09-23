@@ -16,6 +16,8 @@ export function fallbackSite(): SiteContent {
     partners: [],
     divisions,
     projects,
+    news: [],
+    careers: [],
     listings,
     processSteps,
     home: {
@@ -90,6 +92,20 @@ export function fallbackSite(): SiteContent {
         text: "Browse current listings or talk to us about a development site.",
         image:
           "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=2400&q=80",
+      },
+      news: {
+        kicker: "News & Insights",
+        title: "Stories from the group.",
+        text: "Project updates and perspectives from Sheger Business Group.",
+        image:
+          "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2400&q=80",
+      },
+      careers: {
+        kicker: "Careers",
+        title: "Build with Sheger.",
+        text: "Open roles across architecture, construction, real estate, interiors, and trade.",
+        image:
+          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=80",
       },
     },
   };

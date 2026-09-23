@@ -171,7 +171,7 @@ export default async function ContactPage() {
             <img
               src={company.logo || "/brand/sbg-logo.png"}
               alt=""
-              className="h-7 w-auto object-contain brightness-0 invert"
+              className="h-7 w-auto object-contain"
             />
             <p className="mt-3 text-sm font-semibold text-white">{company.name}</p>
             <p className="mt-1 text-xs text-white/55">Dembel City Center · Kirkos · Addis Ababa</p>
@@ -192,7 +192,7 @@ export default async function ContactPage() {
               href="/services"
               className="inline-flex min-h-12 items-center justify-center rounded-sm bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-accent-dark"
             >
-              Our services
+              Our Divisions
             </Link>
             {wa && (
               <a
